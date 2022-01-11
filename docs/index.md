@@ -1,11 +1,13 @@
-# Obsidian Notes
+# Index 
 
-Publish your public notes with MkDocs
 
-## Hello World!
+[[software_dev_design]]
 
-The `index.md` in the `/docs` folder is the homepage you see here.
+[[using_api]]
 
-The folders in `/docs` appear as the main sections on the navigation bar.
+[[cisco_plattform]]
 
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+[[app_deployment_security]]
+
+[[infra_automation]]
+
