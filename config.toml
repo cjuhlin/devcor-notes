@@ -1,0 +1,4 @@
+baseURL = 'https://cjuhlin.github.io/devcor-notes/'
+languageCode = 'en-us'
+title = 'Devcor study notes'
+theme = 'ananke'

@@ -1,4 +1,4 @@
-#modular #design
+\#modular #design
 
 # Modular
 
@@ -9,10 +9,9 @@
 * Code is easier to understand, debugging, and test. 
 * The code is easier to clean up (refactor)
 
-
 Also, applies to microservice. 
 
-*  Each service has one job (ex. One service is the frontend and one is the backend )
+* Each service has one job (ex. One service is the frontend and one is the backend )
 * They communicate with each other over a standard API interface. 
-*  Can easily be reused for other applications with no change to the application. 
-* Easier to [[Scalabilty|scale]]
+* Can easily be reused for other applications with no change to the application. 
+* Easier to [scale](Scalabilty.md)

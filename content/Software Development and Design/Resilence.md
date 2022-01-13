@@ -1,6 +1,8 @@
-#resilence
+\#resilence
 
-# Resilence
+# Resilience
+
+The capacity to recover quickly from difficulties; toughness.
 
 ## Types
 
@@ -9,6 +11,7 @@
 Complete parameters checking in functions and objects to protect from broken and malicious calls. 
 
 ### Timeouts
+
 Timeout should be trimmed so the request isn't taking a too long time but also allowing slower response for stuff that takes some longer time than other functions. 
 
 ### Asynchronous communications
@@ -25,7 +28,7 @@ If the application knows that something will fail, it should fail fast so it wil
 
 ### Circuit breaker
 
-Is a variant of [[#Fail fast|fail fast]] . If a call fails multiple times a circuit breaker will take that resource offline and return an error on the next attempt. 
+Is a variant of [fail fast](Resilence.md#fail-fast) . If a call fails multiple times a circuit breaker will take that resource offline and return an error on the next attempt. 
 
 ### Retries
 
@@ -34,5 +37,3 @@ Used to repeat the same operation multiple times and hope that it will work arou
 ### Fallback mechanism
 
 Fallback to a default value or cached value if possible. Sometimes this is not possible because of the nature of the requested data example if a credit card is valid or not. 
-
-
