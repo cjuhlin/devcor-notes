@@ -1,3 +1,5 @@
 site_name: Devcore Studynotes
 theme:
   name: material
+repo_url: https://github.com/cjuhlin/devcor-notes
+site_author: Christopher Juhlin
