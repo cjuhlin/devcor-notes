@@ -2,7 +2,7 @@
 
 # Monolith application
 
-Monolith application is one single big application.  Everything is on one node, the whole application; the presentation , the logic and the database interface.
+Monolith application is one single big application.  Everything is on one node, the whole application; the presentation, the logic, and the database interface.
 
 Designed to do every step in the process without using external services.
 
@@ -32,4 +32,4 @@ If some component in the application hugs up the resource it will be harder to d
 
 ### Only one codebase
 
-The whole application need to be done in one language. So sometime for certain task that chosen language is maybe not best suited for the job example C++ maybe not so great for web frontend but better for some backend stuff. 
+The whole application needs to be done in one language. So sometimes for a certain task that chosen language is maybe not best suited for the job example C++ maybe not be so great for web frontend but better for some backend stuff. 

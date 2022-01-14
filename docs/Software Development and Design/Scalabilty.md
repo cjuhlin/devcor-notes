@@ -40,7 +40,7 @@ Adding more resources to the same single node. Often used for [Monolith applicat
 
 ### Cons
 
-Need to take the server down to add new resources as ram,HDD,CPU
+Need to take the server down to add new resources like ram, HDD, CPU
 
 ## Scaling horizontally
 

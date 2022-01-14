@@ -6,27 +6,27 @@
 
 ### Atomicity
 
-All operation in the transaction must succeed otherwise it will rollback
+All operations in the transaction must succeed otherwise it will rollback
 
 ### Consistency
 
-Transaction result in valid state of the database , all validation and constraints are met. 
+Transaction results invalid state of the database, all validation and constraints are met. 
 
 ### Isolation
 
-Transaction do not contend with one other. The transactions runs sequentially. 
+Transactions do not contend with one other. The transactions run sequentially. 
 
 ### Durability
 
-The result of transaction is permanent even in the presence of failures. 
+The result of a transaction is permanent even in the presence of failures. 
 
 ## [Base](https://en.wikipedia.org/wiki/Eventual_consistency)
 
 Is variant to ACID
 
-### Basically availble
+### Basically available
 
-Reading and writing operations are available as much as possible (using all nodes of a database cluster), but might not be consistent (the write might not persist after conflicts are reconciled, the read might not get the latest write)
+Reading and writing operations are available as much as possible (using all nodes of a database cluster), but might not be consistent (they write might not persist after conflicts are reconciled, the reader might not get the latest write)
 
 ### Soft state
 
@@ -38,7 +38,7 @@ If we execute some writes and then the system functions long enough, we can know
 
 ## CAP
 
-Model used for distributed database when is stored on multiple nodes. Only two of this three can be true at the same time. 
+The model is used for a distributed database when is stored on multiple nodes. Only two of these three can be true at the same time. 
 
 ### Consistency
 
@@ -46,7 +46,7 @@ Every read receives the most recent write or error
 
 ### Availability
 
-Every request receives a (non error) response, without guarantee that it contains the most recent write. 
+Every request receives a (non-error) response, without a guarantee that it contains the most recent write. 
 
 ### Partition tolerance
 
@@ -58,12 +58,12 @@ When a network fails the database becomes partitioned(out of sync with each othe
 
 Ensure consistency and decrease availability by canceling the operation.
 
-Ensure availability but risk inconsistency by proceeding the operation. 
+Ensure availability but risk inconsistency by proceeding with the operation. 
 
 \#needtofix
 
 ````
-	Rewrite above with my own words. 
+	Rewrite the above with my own words. 
 ````
 
 ## Different type of database
@@ -74,7 +74,7 @@ Use [\#cap](Database.md#cap) (without p) and  [\#acid](Database.md#acid-https-en
 
 #### When
 
-* Best for structed data and querying structed data
+* Best for structured data and querying structured data
 
 ### Document oriented database
 
@@ -90,16 +90,16 @@ Use [\#cap](Database.md#cap) (without p) and  [\#acid](Database.md#acid-https-en
 
 ### Key oriented database
 
-example mongodb
+example MongoDB
 
 ### Time-Series database
 
 #### When
 
-Best suited when handling data that comes with dates/time like logs. Using with telemetry information. Popular to use when building dashboards. 
+Best suited when handling data that comes with dates/time like logs. Using telemetry information. Popular to use when building dashboards. 
 
 \#needtofix 
 
 ````
-	More example and why
+	More examples and why
 ````

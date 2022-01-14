@@ -1,3 +1,3 @@
 # Index
 
-This is some study notes taken while studying for DEVCOR certification. 
+These are some study notes taken while studying for DEVCOR certification. 

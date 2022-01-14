@@ -2,4 +2,4 @@
 
 ## Event Mediator
 
-Breaks down a event to multiple events to send to diffrente queues 
+Breaks down an event to multiple events to send to different queues 
