@@ -16,32 +16,31 @@ files = blob
 Snapshots is referring to parent snapshots.
 
 pseudo-code of git : 
-\``
+
+````
 type blob : array<byte>
-type tree : map\<string , tree | blob>
+type tree : map<string , tree | blob>
 
 type commit : struct  {
-parents : array of commits
-author : string
-message : string
-snapshot: tree
-}
+					 parents : array of commits
+					 author : string
+					 message : string
+					 snapshot: tree
+					 }
 
 type object : blob | tree | commit
 
-objects : map \<string,object>
+objects : map <string,object>
 
 def store(o)
-id = sha1(o)
-object(id) = o
+	 id = sha1(o)
+	 object(id) = o
 
 def load(id)
 
-````
-return object(id)
+	return object(id)
 ````
 
-\``
 everything is a reference to sha1 id in snapshots, so snapshot is a reference to the hash of the other snapshot in the commit. Same with parents. 
 
 git is immutable 
@@ -55,6 +54,7 @@ git ...
 ### commit
 
 `-a`
+
 Will add all files that are modified to the commit instead of using the `add` command to add files manually that should be used in the commit.
 
 ### log
